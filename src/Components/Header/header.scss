@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 15px;
+  max-width: 1200px;
+  &__list {
+    display: flex;
+  }
+  &__item {
+    list-style: none;
+    margin-right: 16px;
+    text-transform: uppercase;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  &__link {
+    color: black;
+  }
+  &__logo {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  &__img {
+    margin: 0 3px;
+  }
+}

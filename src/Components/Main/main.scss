@@ -1,0 +1,48 @@
+.main {
+  background-image: url("../../assets/Background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  &__content {
+    margin: 180px auto 0 auto;
+    max-width: 1200px;
+  }
+  &__title {
+    font-size: 195px;
+    font-weight: 100;
+    letter-spacing: 0.32em;
+    text-align: center;
+    color: #eda424;
+    text-transform: uppercase;
+    @media (max-width: 1321px) {
+      font-size: 180px;
+    }
+    @media (max-width: 1276px) {
+      font-size: 150px;
+    }
+    @media (max-width: 1024px) {
+      font-size: 120px;
+    }
+    @media (max-width: 768px) {
+      font-size: 80px;
+    }
+    @media (max-width: 425px) {
+      font-size: 60px;
+    }
+    @media (max-width: 375px) {
+      font-size: 50px;
+    }
+  }
+  &__subtitle {
+    color: #a5a5a5;
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+  &__year {
+    color: #a5a5a5;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding-top: 211px;
+  }
+}
