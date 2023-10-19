@@ -1,0 +1,26 @@
+.experience {
+  height: 79vh;
+  background-image: url("../../assets/Background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  &__wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+  }
+  &__table {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #f1f1f1;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  }
+  &__org {
+    font-size: 24px;
+  }
+  &__position {
+    font-size: 24px;
+    color: #eda424;
+  }
+}

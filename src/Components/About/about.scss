@@ -1,0 +1,27 @@
+.about {
+  height: 110vh;
+  background-image: url("../../assets/Background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: self-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+  }
+  &__text {
+    text-align: left;
+    border-left: 1px solid #eda424;
+    max-width: 500px;
+    font-size: 17px;
+    padding-left: 16px;
+    color: #1a1b1d;
+  }
+  &__photo {
+    text-align: end;
+    padding-bottom: 50px;
+  }
+}
