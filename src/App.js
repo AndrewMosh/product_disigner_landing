@@ -11,6 +11,7 @@ function App() {
       <About />
       <Gap props="Опыт" />
       <Experience />
+      <Gap props="Навыки" />
     </div>
   );
 }
