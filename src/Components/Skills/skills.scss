@@ -1,0 +1,28 @@
+.skills {
+  background-image: url("../../assets/Background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+  &__wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+  }
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+  }
+  &__list {
+    text-align: right;
+    font-size: 17px;
+    line-height: 24px;
+    color: #1a1b1d;
+  }
+  &__name {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #eda424;
+  }
+}

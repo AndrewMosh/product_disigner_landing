@@ -12,10 +12,11 @@
   &__title {
     font-size: 195px;
     font-weight: 100;
-    letter-spacing: 0.32em;
+    letter-spacing: 0.25em;
     text-align: center;
     color: #eda424;
     text-transform: uppercase;
+    max-width: 1200px;
     @media (max-width: 1321px) {
       font-size: 180px;
     }
