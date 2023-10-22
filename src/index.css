@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Hoves";
-  src: url("./assets/fonts/TT\ Hoves\ Pro\ Trial\ Regular.ttf");
+  src: url("./assets/fonts/TT Hoves Pro Trial Light.ttf");
 }
 @font-face {
   font-family: "Hoves thin";
@@ -9,6 +9,7 @@
 body {
   margin: 0;
   font-family: "Hoves";
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
