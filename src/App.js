@@ -4,6 +4,8 @@ import Gap from "./Components/Gap/Gap";
 import About from "./Components/About/About";
 import Experience from "./Components/Experience/Experience";
 import Skills from "./Components/Skills/Skills";
+import Portfolio from "./Components/Portfolio/Portfolio";
+import ContactButton from "./Components/ContactButton/ContactButton";
 function App() {
   return (
     <div className="App">
@@ -15,6 +17,9 @@ function App() {
       <Gap props="Навыки" />
       <Skills />
       <Gap props="Портфолио" />
+      <Portfolio />
+      <Gap props="Footer" />
+      <ContactButton />
     </div>
   );
 }

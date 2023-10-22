@@ -1,0 +1,27 @@
+.portfolio {
+  background-image: url("../../assets/Background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+  &__wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0 50px 0;
+  }
+  &__img {
+    width: -webkit-fill-available;
+    margin-bottom: 50px;
+  }
+  &__name {
+    color: black;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 30px;
+
+    text-underline-offset: 10px;
+  }
+  &__table {
+    margin-bottom: 24px;
+  }
+}

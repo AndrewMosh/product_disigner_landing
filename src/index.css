@@ -1,6 +1,10 @@
 @font-face {
   font-family: "Hoves";
-  src: url("./assets/fonts/TT Hoves Pro Trial Regular.ttf");
+  src: url("./assets/fonts/TT\ Hoves\ Pro\ Trial\ Regular.ttf");
+}
+@font-face {
+  font-family: "Hoves thin";
+  src: url("./assets/fonts/TT Hoves Pro Trial Hairline.ttf");
 }
 body {
   margin: 0;

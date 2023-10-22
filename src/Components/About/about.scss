@@ -1,5 +1,4 @@
 .about {
-  height: 110vh;
   background-image: url("../../assets/Background.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -20,6 +19,7 @@
     font-size: 17px;
     padding-left: 16px;
     color: #1a1b1d;
+    font-weight: 100;
   }
   &__photo {
     text-align: end;

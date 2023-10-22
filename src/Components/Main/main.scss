@@ -5,6 +5,7 @@
   background-position: center;
   height: 110vh;
   border-radius: 0 0 20px 20px;
+
   &__content {
     margin: 180px auto 0 auto;
     max-width: 1200px;
@@ -17,6 +18,7 @@
     color: #eda424;
     text-transform: uppercase;
     max-width: 1200px;
+    font-family: "Hoves thin";
     @media (max-width: 1321px) {
       font-size: 180px;
     }
