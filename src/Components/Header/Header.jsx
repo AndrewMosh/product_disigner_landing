@@ -1,5 +1,5 @@
 import logo from "../../assets/Logo.svg";
-import { socials } from "../../utils/socials";
+import { SOCIALS } from "../../utils/SOCIALS";
 import "./header.scss";
 import BurgerMenu from "../Burger/Burger";
 const Header = ({ isOpen, toggleMenu, setIsOpen }) => {
@@ -15,7 +15,7 @@ const Header = ({ isOpen, toggleMenu, setIsOpen }) => {
       />
       <nav className="header__nav">
         <ul className="header__list">
-          {socials.map((social) => (
+          {SOCIALS.map((social) => (
             <li className="header__item" key={social}>
               <a className="header__link" href={social}>
                 {social}

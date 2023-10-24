@@ -1,4 +1,4 @@
-import { EXPERIENCE } from "../../utils/experience";
+import { EXPERIENCE } from "../../utils/EXPERIENCE";
 import "./experience.scss";
 const Experience = () => {
   return (

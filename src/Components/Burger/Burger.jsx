@@ -1,6 +1,6 @@
 import React from "react";
 import "./burger.css";
-import { socials } from "../../utils/socials";
+import { SOCIALS } from "../../utils/SOCIALS";
 function BurgerMenu({ isOpen, toggleMenu }) {
   return (
     <div className="burger-menu">
@@ -15,7 +15,7 @@ function BurgerMenu({ isOpen, toggleMenu }) {
       {isOpen && (
         <div className="menu">
           <ul className="menu__list">
-            {socials.map((social) => (
+            {SOCIALS.map((social) => (
               <li key={social}>
                 <a href="/">{social}</a>
               </li>

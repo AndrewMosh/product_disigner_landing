@@ -1,1 +1,1 @@
-export const socials = ["linkedin", "email", "telegram", "instagram"];
+export const SOCIALS = ["linkedin", "email", "telegram", "instagram"];
