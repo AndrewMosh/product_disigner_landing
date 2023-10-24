@@ -6,9 +6,18 @@
   align-items: center;
   justify-content: center;
   font-family: "Hoves thin";
+  @media screen and (max-width: 900px) {
+    height: 210px;
+  }
+  @media screen and (max-width: 375px) {
+    height: 110px;
+  }
   &__element {
     color: white;
     font-size: 100px;
     text-transform: uppercase;
+    @media screen and (max-width: 670px) {
+      font-size: 54px;
+    }
   }
 }

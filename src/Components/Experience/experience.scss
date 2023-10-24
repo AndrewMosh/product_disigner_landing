@@ -5,10 +5,16 @@
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 20px;
+  @media screen and (max-width: 701px) {
+    height: auto;
+  }
   &__wrapper {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
-    padding: 100px 0;
+    padding: 100px 100px;
+    @media screen and (max-width: 659px) {
+      padding: 75px 16px;
+    }
   }
   &__table {
     display: flex;
@@ -16,12 +22,22 @@
     border-bottom: 1px solid #f1f1f1;
     margin-bottom: 20px;
     padding-bottom: 10px;
+    @media screen and (max-width: 659px) {
+      display: block;
+    }
   }
   &__org {
     font-size: 24px;
+    @media screen and (max-width: 659px) {
+      text-align: left;
+    }
   }
   &__position {
     font-size: 24px;
     color: #eda424;
+    @media screen and (max-width: 659px) {
+      text-align: right;
+      padding-top: 4px;
+    }
   }
 }

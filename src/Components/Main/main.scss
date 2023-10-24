@@ -3,13 +3,26 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 110vh;
   border-radius: 0 0 20px 20px;
 
   &__content {
     margin: 180px auto 0 auto;
-    max-width: 1200px;
+    max-width: 1400px;
+    padding: 0 100px;
+    @media screen and (max-width: 987px) {
+      padding: 0 50px;
+    }
+    @media screen and (max-width: 525px) {
+      padding: 0 30px;
+    }
+    @media screen and (max-width: 414px) {
+      padding: 0 16px;
+    }
+    @media screen and (max-width: 320px) {
+      padding: 0 10px;
+    }
   }
+
   &__title {
     font-size: 195px;
     font-weight: 100;
@@ -17,24 +30,34 @@
     text-align: center;
     color: #eda424;
     text-transform: uppercase;
-    max-width: 1200px;
+    max-width: 1400px;
     font-family: "Hoves thin";
-    @media (max-width: 1321px) {
+
+    @media (max-width: 1350px) {
       font-size: 180px;
     }
     @media (max-width: 1276px) {
       font-size: 150px;
     }
-    @media (max-width: 1024px) {
+    @media (max-width: 1072px) {
       font-size: 120px;
     }
-    @media (max-width: 768px) {
+    @media (max-width: 881px) {
+      font-size: 110px;
+    }
+    @media (max-width: 842px) {
+      font-size: 100px;
+    }
+    @media (max-width: 761px) {
       font-size: 80px;
     }
-    @media (max-width: 425px) {
+    @media (max-width: 659px) {
+      font-size: 70px;
+    }
+    @media (max-width: 525px) {
       font-size: 60px;
     }
-    @media (max-width: 375px) {
+    @media (max-width: 414px) {
       font-size: 50px;
     }
   }
@@ -42,11 +65,15 @@
     color: #a5a5a5;
     font-size: 30px;
     text-transform: uppercase;
+    @media (max-width: 414px) {
+      font-size: 20px;
+    }
   }
   &__year {
     color: #a5a5a5;
     font-size: 17px;
     text-transform: uppercase;
     padding-top: 211px;
+    padding-bottom: 50px;
   }
 }
