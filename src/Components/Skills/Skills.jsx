@@ -10,60 +10,57 @@ const Skills = () => {
             Глубинные интервью <br />
             Количественный анализ <br />
             Анализ рынка, конкурентов <br />
-            Анализ данных, метрик <br />
+            Анализ данных <br />
+            Метрики <br />
             Jobs To Be Done <br />
             Customer Journey Map <br />
             Persona Method <br />
             AARRR <br />
-            HADI-цикл
+            HADI-цикл <br />
+            Карты Эмпатии
           </div>
         </div>
         <div className="skills__container">
-          <div className="skills__name">UI</div>
+          <div className="skills__name">UXI</div>
           <div className="skills__list">
-            Подбор Шрифтов <br />
+            Шрифты <br />
             Цветовая палитра <br />
             Ton Of Voice <br />
             Прототипирование <br />
-            Анимация
+            Анимация <br />
+            Информационная архитектура <br /> Task-Flow <br /> Тестирование
+            <br />
+            Работа с графикой
           </div>
         </div>
-        <div className="skills__container">
-          <div className="skills__name">UX</div>
-          <div className="skills__list">
-            Информационная архитектура <br />
-            Воронки <br />
-            Task-Flow <br />
-            Тестирование
-          </div>
-        </div>
+
         <div className="skills__container">
           <div className="skills__name">Команда</div>
           <div className="skills__list">
             Контроль разработки <br />
             Передача макетов в разработку
             <br />
-            Формирование Big Job для команды <br />
+            Big Job для команды <br />
             Фиксирование договоренностей <br />
             Roadmap <br />
             Feature List <br />
             RICE/ICE/ROI/Rearch & Frequency <br />
             DoR/DoD/Smart <br />
-            Отладка процесса разработки
+            Scrum / Agile <br /> Poker Planning
           </div>
         </div>
         <div className="skills__container">
           <div className="skills__name">Документация</div>
           <div className="skills__list">
-            Разработка Дизайн Системы <br />
-            Формирование UI-kit
+            Дизайн Система <br />
+            UI-kit <br />
+            Гайдлайны
           </div>
         </div>
         <div className="skills__container">
           <div className="skills__name">Знания/Навыки</div>
           <div className="skills__list">
-            Формирование/модерирование библиотеки <br />
-            Распространение через соц.сети <br />
+            Распространение знаний <br />
             Менторинг
           </div>
         </div>

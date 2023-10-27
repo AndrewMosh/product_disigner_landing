@@ -24,10 +24,17 @@
     text-transform: uppercase;
     text-align: left;
     font-size: 30px;
-    text-decoration: underline solid black 1px;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
     text-underline-offset: 10px;
     @media screen and (max-width: 659px) {
       font-size: 17px;
+    }
+    &:hover {
+      color: #a5a5a5;
+    }
+    &:active {
+      color: #d28d0c;
     }
   }
   &__table {
