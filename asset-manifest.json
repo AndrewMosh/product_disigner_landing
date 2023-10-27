@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/product_designer_landing/static/css/main.cac14de4.css",
-    "main.js": "/product_designer_landing/static/js/main.26b321d4.js",
+    "main.css": "/product_designer_landing/static/css/main.6fcffe8c.css",
+    "main.js": "/product_designer_landing/static/js/main.9bc1ba2d.js",
     "static/js/787.dc46d09f.chunk.js": "/product_designer_landing/static/js/787.dc46d09f.chunk.js",
     "static/media/Photo.png": "/product_designer_landing/static/media/Photo.9bb8c71c6a27580a0a1d.png",
     "static/media/Background.png": "/product_designer_landing/static/media/Background.39ae42818e84ec6fec47.png",
@@ -10,12 +10,14 @@
     "static/media/TT Hoves Pro Trial Hairline.ttf": "/product_designer_landing/static/media/TT Hoves Pro Trial Hairline.3a17aa7222047120d137.ttf",
     "static/media/Logo.svg": "/product_designer_landing/static/media/Logo.7d7399a4cd5432dafe384d0d7c35774a.svg",
     "index.html": "/product_designer_landing/index.html",
-    "main.cac14de4.css.map": "/product_designer_landing/static/css/main.cac14de4.css.map",
-    "main.26b321d4.js.map": "/product_designer_landing/static/js/main.26b321d4.js.map",
+    "static/media/IconButton.svg": "/product_designer_landing/static/media/IconButton.92cc5fedf224dee0edcc8ce488bf2d91.svg",
+    "static/media/Burger.svg": "/product_designer_landing/static/media/Burger.35c963cb512daf2a2890a31cb2adbb19.svg",
+    "main.6fcffe8c.css.map": "/product_designer_landing/static/css/main.6fcffe8c.css.map",
+    "main.9bc1ba2d.js.map": "/product_designer_landing/static/js/main.9bc1ba2d.js.map",
     "787.dc46d09f.chunk.js.map": "/product_designer_landing/static/js/787.dc46d09f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cac14de4.css",
-    "static/js/main.26b321d4.js"
+    "static/css/main.6fcffe8c.css",
+    "static/js/main.9bc1ba2d.js"
   ]
 }
