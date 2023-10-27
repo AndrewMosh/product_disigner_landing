@@ -14,7 +14,7 @@
 }
 
 .burger-menu__icon:active {
-  stroke: #d28d0c;
+  fill: #d28d0c;
 }
 .menu {
   width: 100vw;
