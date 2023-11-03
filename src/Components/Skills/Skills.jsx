@@ -1,8 +1,12 @@
 import "./skills.scss";
+import useFadeInOnScroll from "../Hooks/useFadeInOnScroll";
+import { animated } from "react-spring";
+
 const Skills = () => {
+  const fadeIn = useFadeInOnScroll(2900);
   return (
     <div className="skills">
-      <div className="skills__wrapper">
+      <animated.div style={fadeIn} className="skills__wrapper">
         <div className="skills__container">
           <div className="skills__name">Продукт</div>
           <div className="skills__list">
@@ -64,7 +68,7 @@ const Skills = () => {
             Менторинг
           </div>
         </div>
-      </div>
+      </animated.div>
     </div>
   );
 };

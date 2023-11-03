@@ -1,9 +1,13 @@
 import { PORTFOLIO } from "../../utils/PORTFOLIO";
 import "./portfolio.scss";
+import useFadeInOnScroll from "../Hooks/useFadeInOnScroll";
+import { animated } from "react-spring";
+
 const Portfolio = () => {
+  const fadeIn = useFadeInOnScroll(4300);
   return (
     <div className="portfolio">
-      <div className="portfolio__wrapper">
+      <animated.div style={fadeIn} className="portfolio__wrapper">
         {PORTFOLIO.map((el) => (
           <>
             <a href="/" className="portfolio__name">
@@ -15,7 +19,7 @@ const Portfolio = () => {
             </a>
           </>
         ))}
-      </div>
+      </animated.div>
     </div>
   );
 };

@@ -1,16 +1,19 @@
 import { EXPERIENCE } from "../../utils/EXPERIENCE";
 import "./experience.scss";
+import useFadeInOnScroll from "../Hooks/useFadeInOnScroll";
+import { animated } from "react-spring";
 const Experience = () => {
+  const fadeIn = useFadeInOnScroll(1900);
   return (
     <div className="experience">
-      <div className="experience__wrapper">
+      <animated.div style={fadeIn} className="experience__wrapper">
         {EXPERIENCE.map((el) => (
           <div className="experience__table">
             <div className="experience__org">{el.org}</div>
             <div className="experience__position">{el.position}</div>
           </div>
         ))}
-      </div>
+      </animated.div>
     </div>
   );
 };

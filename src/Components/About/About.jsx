@@ -1,9 +1,12 @@
 import Mark from "../../assets/images/Photo.png";
 import "./about.scss";
+import useFadeInOnScroll from "../Hooks/useFadeInOnScroll";
+import { animated } from "react-spring";
 const About = () => {
+  const fadeIn = useFadeInOnScroll(600); // Установите желаемый порог прокрутки
   return (
     <div className="about">
-      <div className="about__wrapper">
+      <animated.div style={fadeIn} className="about__wrapper">
         <div className="about__text">
           Я продуктовый дизайнер, создающий консистентный, уникальный и
           лаконичный дизайн. Имею успешный опыт работы, как с небольшими
@@ -26,7 +29,7 @@ const About = () => {
             разработки и последующим собой информации после релиза.
           </div>
         </div>
-      </div>
+      </animated.div>
     </div>
   );
 };

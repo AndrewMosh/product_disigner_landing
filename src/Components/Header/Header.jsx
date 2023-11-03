@@ -5,9 +5,9 @@ import BurgerMenu from "../Burger/Burger";
 const Header = ({ isOpen, toggleMenu, setIsOpen }) => {
   return (
     <header className="header">
-      <div className="header__logo">
+      <a href="/" className="header__logo">
         Марк <img className="header__img" src={logo} alt="logo" /> Игнатьев
-      </div>
+      </a>
       <BurgerMenu
         isOpen={isOpen}
         toggleMenu={toggleMenu}
