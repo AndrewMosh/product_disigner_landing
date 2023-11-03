@@ -1,4 +1,4 @@
-import logo from "../../assets/Logo.svg";
+import logo from "../../assets/images/Logo.svg";
 import { SOCIALS } from "../../utils/SOCIALS";
 import "./header.scss";
 import BurgerMenu from "../Burger/Burger";

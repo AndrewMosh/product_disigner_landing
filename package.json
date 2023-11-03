@@ -1,6 +1,8 @@
 {
   "name": "mark",
   "version": "0.1.0",
+  "description": "Mark Landing Page",
+  "author": "Andrew Moshchenko",
   "private": true,
   "homepage": "http://andrewmosh.github.io/product_designer_landing",
   "dependencies": {

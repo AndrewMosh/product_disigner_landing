@@ -1,8 +1,8 @@
 import React from "react";
 import "./burger.css";
 import { SOCIALS } from "../../utils/SOCIALS";
-import menu from "../../assets/Burger.svg";
-import open from "../../assets/IconButton.svg";
+import menu from "../../assets/images/Burger.svg";
+import open from "../../assets/images/IconButton.svg";
 function BurgerMenu({ isOpen, toggleMenu }) {
   return (
     <div className="burger-menu">

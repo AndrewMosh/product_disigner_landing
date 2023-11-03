@@ -1,4 +1,4 @@
-import Mark from "../../assets/Photo.png";
+import Mark from "../../assets/images/Photo.png";
 import "./about.scss";
 const About = () => {
   return (
