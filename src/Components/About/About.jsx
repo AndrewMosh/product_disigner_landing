@@ -3,7 +3,7 @@ import "./about.scss";
 import useFadeInOnScroll from "../Hooks/useFadeInOnScroll";
 import { animated } from "react-spring";
 const About = () => {
-  const fadeIn = useFadeInOnScroll(600); // Установите желаемый порог прокрутки
+  const fadeIn = useFadeInOnScroll(600);
   return (
     <div className="about">
       <animated.div style={fadeIn} className="about__wrapper">
