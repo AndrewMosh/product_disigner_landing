@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/product_designer_landing/static/css/main.53a53ea1.css",
+    "main.css": "/product_designer_landing/static/css/main.4f7ebf1c.css",
     "main.js": "/product_designer_landing/static/js/main.67f51af3.js",
     "static/js/787.dc46d09f.chunk.js": "/product_designer_landing/static/js/787.dc46d09f.chunk.js",
     "static/media/Photo.png": "/product_designer_landing/static/media/Photo.9bb8c71c6a27580a0a1d.png",
@@ -12,12 +12,12 @@
     "index.html": "/product_designer_landing/index.html",
     "static/media/IconButton.svg": "/product_designer_landing/static/media/IconButton.92cc5fedf224dee0edcc8ce488bf2d91.svg",
     "static/media/Burger.svg": "/product_designer_landing/static/media/Burger.35c963cb512daf2a2890a31cb2adbb19.svg",
-    "main.53a53ea1.css.map": "/product_designer_landing/static/css/main.53a53ea1.css.map",
+    "main.4f7ebf1c.css.map": "/product_designer_landing/static/css/main.4f7ebf1c.css.map",
     "main.67f51af3.js.map": "/product_designer_landing/static/js/main.67f51af3.js.map",
     "787.dc46d09f.chunk.js.map": "/product_designer_landing/static/js/787.dc46d09f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.53a53ea1.css",
+    "static/css/main.4f7ebf1c.css",
     "static/js/main.67f51af3.js"
   ]
 }
